@@ -7,6 +7,10 @@ Ecosistema de dos proyectos de escaneo, en fase de diseño de arquitectura (revi
 - **[Precision Part](./precision-part/ARCHITECTURE.md)** — Escáner de precisión para piezas chicas/medianas, turntable + fotogrametría multi-cámara + triangulación láser dual-color como anclaje métrico.
 - **[Isla Giratoria](./isla-giratoria/ARCHITECTURE.md)** — Escáner multimodal de habitaciones: LiDAR + térmica + RF de penetración de paredes, nodo autónomo giratorio.
 
+## Para retomar el proyecto
+
+👉 Empezá por [`ONBOARDING.md`](./ONBOARDING.md) — resumen rápido, glosario, y filosofía de trabajo del proyecto.
+
 ## Estado general
 
 Ambos proyectos están en etapa de **revisión de arquitectura** (sin firmware ni hardware fabricado todavía). Ver `ROADMAP.md` en cada carpeta de proyecto para el detalle de fases y gaps pendientes.
