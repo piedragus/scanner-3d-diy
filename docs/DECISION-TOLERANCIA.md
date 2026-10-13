@@ -17,3 +17,7 @@ Fecha: 2026-10-12. Origen: respuestas de Agustín.
 
 ## Aparte: PlutoSDR
 ADALM-PLUTO = SDR de Analog Devices (~USD 100-150) para el subsistema RF de la isla giratoria (radar FMCW que atraviesa paredes, ver isla-giratoria/ARCHITECTURE.md). Sirve para validar FMCW básico antes de invertir más. No tiene relación con esta decisión ni con la medición de piezas.
+
+## Simulación (2026-10-12)
+`simulaciones/sim_descentrado.py`: cilindro R = 40 mm, descentrado 5 mm, 360 muestras por vuelta, ajuste de círculo. Con ruido aleatorio del ToF de σ = 1 mm el error del diámetro es ~0,11 mm con 1 vuelta y ~0,05 mm con 16. Ver `simulaciones/resultado_descentrado.txt`.
+Alcance: solo ruido aleatorio. No incluye error sistemático (offset/escala del ToF, inclinación del eje, alabeo del giratorio, mapeo de ángulo), que es el que de verdad decide si se llega a 0,25 mm y que las pasadas promediadas no eliminan. Eso se mide con la pieza patrón.
